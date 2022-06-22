@@ -1,4 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #A0D9D9;
+}
+
 .App {
-  text-align: center;
+  text-align: center;  
+}
+
+.contact-header {
+  margin-bottom: 24px;
+}
+
+.contact-container {
   display: flex;
+  justify-content: center;
+}
+
+.contact-item {
+  background-color: #45858C;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  margin-bottom: 24px;
+  min-width: 380px;
+  border-radius: 12px;
+}
+
+.contact-item__photo {
+  width: 96px;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.contact-item__body {
+  margin: 0 auto;
+}
+
+.contact-item__body p {
+  margin-bottom: 8px;
+}
+
+.contact-item__body-name {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
